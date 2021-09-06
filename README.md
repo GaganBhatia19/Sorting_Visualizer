@@ -1,4 +1,4 @@
-# Sorting Visualizer
+# Sorting Visualizer 📊
 
 ### Well I guess you may have studied how different sorting algorithms work and now it's time to Visualize the working of these algorithms!!
 
@@ -15,5 +15,17 @@
 ## Bubble Sort
 
 
-https://user-images.githubusercontent.com/83947009/132208120-49571ec9-fc7e-433e-a67a-188948c574c0.mp4
+## Insertion Sort
+
+
+## Selection Sort
+
+
+## Shell Sort
+
+
+## Quick Sort
+
+
+## Merge Sort
 
