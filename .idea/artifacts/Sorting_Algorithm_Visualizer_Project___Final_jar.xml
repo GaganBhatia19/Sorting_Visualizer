@@ -1,0 +1,74 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Sorting Algorithm Visualizer Project - Final:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Sorting_Algorithm_Visualizer_Project___Final_jar</output-path>
+    <root id="archive" name="Sorting Algorithm Visualizer Project - Final.jar">
+      <element id="module-output" name="Sorting Algorithm Visualizer Project - Final" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/lib/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-console-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-console-l1-2-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-datetime-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-debug-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-errorhandling-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-file-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-file-l1-2-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-file-l2-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-handle-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-heap-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-interlocked-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-libraryloader-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-localization-l1-2-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-memory-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-namedpipe-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-processenvironment-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-processthreads-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-processthreads-l1-1-1.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-profile-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-string-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-synch-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-synch-l1-2-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-sysinfo-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-timezone-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-core-util-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-crt-conio-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-crt-convert-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-crt-environment-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-crt-filesystem-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-crt-heap-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-crt-locale-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-crt-math-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-crt-multibyte-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-crt-private-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-crt-process-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-crt-runtime-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-crt-stdio-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-crt-string-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-crt-time-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/api-ms-win-crt-utility-l1-1-0.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/decora_sse.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/fxplugins.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/glass.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/glib-lite.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/gstreamer-lite.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/javafx_font.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/javafx_iio.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/jfxmedia.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/jfxwebkit.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/msvcp140.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/prism_common.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/prism_d3d.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/prism_sw.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/ucrtbase.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/vcruntime140.dll" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Java FX/javafx-sdk-16/bin/vcruntime140_1.dll" />
+    </root>
+  </artifact>
+</component>

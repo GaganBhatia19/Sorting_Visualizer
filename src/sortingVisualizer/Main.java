@@ -1,3 +1,9 @@
+/*
+*       Sorting Visualizer by Gagan Bhatia
+*
+*       Github profile: GaganBhatia19
+* */
+
 package sortingVisualizer;
 
 import javafx.application.Application;
@@ -10,13 +16,12 @@ import javafx.stage.Stage;
 public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root1 = FXMLLoader.load(getClass().getResource("resources/mainWindow.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("resources/mainWindow.fxml"));
         primaryStage.setTitle("Sorting Visualizer");
         Image icon = new Image(getClass().getResourceAsStream("resources/bar-chart.png"));
         primaryStage.getIcons().addAll(icon);
-        primaryStage.setScene(new Scene(root1));
+        primaryStage.setScene(new Scene(root));
         primaryStage.setMaximized(true);
-        primaryStage.setFullScreen(true);
         primaryStage.setOnCloseRequest(e-> System.exit(0));
         primaryStage.show();
     }

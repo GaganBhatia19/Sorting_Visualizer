@@ -8,6 +8,12 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
+<!--
+        Sorting Visualizer by Gagan Bhatia
+
+        Github profile: GaganBhatia19
+-->
+
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1360.0" styleClass="rootAnchorPane" stylesheets="@mainWindowStyles.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sortingVisualizer.Controller">
     <children>
         <AnchorPane layoutX="77.0" prefHeight="100.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">

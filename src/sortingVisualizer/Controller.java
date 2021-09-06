@@ -1,3 +1,9 @@
+/*
+ *       Sorting Visualizer by Gagan Bhatia
+ *
+ *       Github profile: GaganBhatia19
+ * */
+
 package sortingVisualizer;
 
 import javafx.animation.Animation;
@@ -515,7 +521,7 @@ public final class Controller implements Initializable {
             changeStyleEffect(finalX,MAIN_THEME);
             ((XYChart.Data) series.getData().get(x)).setYValue(
                     ((XYChart.Data) copySeries.getData().get(x)).getYValue());
-//            delay();
+            delay();
         }
     }
 
