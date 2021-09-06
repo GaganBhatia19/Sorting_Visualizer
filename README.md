@@ -11,6 +11,8 @@
 6. Quick Sort
 7. Merge Sort
 
+### Download JAR (Java Archive): https://drive.google.com/file/d/1kcMkyYWIr4vZkWHkcbnjw1LF38MM8yq_/view?usp=sharing
+### Download Executable (exe): https://drive.google.com/file/d/1HVIZ4tvKwQtq3SisLIB5vxDD6EGlfxad/view?usp=sharing 
 
 ## Bubble Sort
 https://user-images.githubusercontent.com/83947009/132213927-4797f89b-81f0-443c-9ffb-f3cb6491c6af.mp4
@@ -28,4 +30,4 @@ https://user-images.githubusercontent.com/83947009/132214116-7a2365a4-932c-41f0-
 https://user-images.githubusercontent.com/83947009/132214165-27d6ed85-768b-41b9-99e5-4c777a5d6ce4.mp4
 
 ## Merge Sort
-https://user-images.githubusercontent.com/83947009/132214217-adb8da49-a92b-4cf2-82ac-f57b57bbdc08.mp4
+https://user-images.githubusercontent.com/83947009/132238552-f11d1f2f-7b8b-4a82-bc2d-0da565e9c04e.mp4
