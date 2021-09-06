@@ -10,3 +10,10 @@
 5. Shell Sort
 6. Quick Sort
 7. Merge Sort
+
+
+## Bubble Sort
+
+
+https://user-images.githubusercontent.com/83947009/132208120-49571ec9-fc7e-433e-a67a-188948c574c0.mp4
+
