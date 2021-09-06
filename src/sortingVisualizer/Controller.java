@@ -86,10 +86,9 @@ public final class Controller implements Initializable {
 
         aboutBtn.setOnMouseClicked(e -> {
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setTitle("About Sorting Visualizer & Developer");
-            alert.setHeaderText("Developed & Programmed by Gagan Bhatia");
-            alert.setContentText("Visualize Bubble Sort Algorithm, Insertion Sort Algorithm, Selection Sort Algorithm, Quick Sort Algorithm & Merge Sort Algorithm");
-            alert.setGraphic(new ImageView());
+            alert.setTitle("About Application & Developer");
+            alert.setHeaderText("Developed by Gagan Bhatia");
+            alert.setContentText("Visualize Bubble Sort Algorithm, Insertion Sort Algorithm, Selection Sort Algorithm, Shell Sort, Quick Sort Algorithm & Merge Sort Algorithm and see how these work.\n\nTip: If size of array is larger make sure that you decrease the delay time!");
             alert.show();
         });
 
@@ -396,7 +395,6 @@ public final class Controller implements Initializable {
             isArraySorted(true);
         }).start();
     }
-
     private void quickSortRec(int startIdx, int endIdx) {
         int idx = partition(startIdx, endIdx);
 
@@ -408,7 +406,6 @@ public final class Controller implements Initializable {
             quickSortRec(idx, endIdx);
         }
     }
-
     private int partition(int left, int right) {
         barsDisableEffect(left, right);
         int pivot = (int) ((XYChart.Data) series.getData().get(left)).getYValue();
@@ -491,44 +488,40 @@ public final class Controller implements Initializable {
             delay();
             if ((int) ((XYChart.Data) series.getData().get(i)).getYValue() < (int) ((XYChart.Data) series.getData().get(j)).getYValue()) {
                 ((XYChart.Data) copySeries.getData().get(k)).setYValue(((XYChart.Data) series.getData().get(i)).getYValue());
-                delay();
                 i++;
                 k++;
             } else {
-                ((XYChart.Data) copySeries.getData().get(k)).setYValue(
-                        ((XYChart.Data) series.getData().get(j)).getYValue());
-                delay();
+                ((XYChart.Data) copySeries.getData().get(k)).setYValue(((XYChart.Data) series.getData().get(j)).getYValue());
                 j++;
                 k++;
             }
             changeStyleEffect(i, MAIN_THEME, j, MAIN_THEME);
         }
         for (; i <= mid; i++) {
-            ((XYChart.Data) copySeries.getData().get(k)).setYValue(
-                    ((XYChart.Data) series.getData().get(i)).getYValue());
-            delay();
+            ((XYChart.Data) copySeries.getData().get(k)).setYValue(((XYChart.Data) series.getData().get(i)).getYValue());
             k++;
         }
         for (; j <= high; j++) {
-            ((XYChart.Data) copySeries.getData().get(k)).setYValue(
-                    ((XYChart.Data) series.getData().get(j)).getYValue());
-            delay();
+            ((XYChart.Data) copySeries.getData().get(k)).setYValue(((XYChart.Data) series.getData().get(j)).getYValue());
             k++;
         }
 
         for (int x = low; x <= high; x++) {
             int finalX = x;
             changeStyleEffect(finalX,MAIN_THEME);
-            ((XYChart.Data) series.getData().get(x)).setYValue(
-                    ((XYChart.Data) copySeries.getData().get(x)).getYValue());
+            ((XYChart.Data) series.getData().get(x)).setYValue(((XYChart.Data) copySeries.getData().get(x)).getYValue());
             delay();
         }
     }
 
+
+    // for swap Animation effect
     private ParallelTransition swapAnimation(int d1, int d2) {
+        // get the precise location of the node in X axis
         double a1 = ((XYChart.Data) series.getData().get(d1)).getNode().getParent().localToParent(((XYChart.Data) series.getData().get(d1)).getNode().getBoundsInParent()).getMinX();
         double a2 = ((XYChart.Data) series.getData().get(d1)).getNode().getParent().localToParent(((XYChart.Data) series.getData().get(d2)).getNode().getBoundsInParent()).getMinX();
 
+        // if any swap occur then we get the location of our node where it is swapped
         double translated1 = ((XYChart.Data) series.getData().get(d1)).getNode().getTranslateX();
         double translated2 = ((XYChart.Data) series.getData().get(d2)).getNode().getTranslateX();
 
@@ -537,6 +530,7 @@ public final class Controller implements Initializable {
         TranslateTransition t2 = new TranslateTransition(Duration.millis(DELAY_TIME), ((XYChart.Data) series.getData().get(d2)).getNode());
         t2.setByX(a1 - a2);
         ParallelTransition pt = new ParallelTransition(t1, t2);
+        // ParallelTransition will run t1 and t2 in parallel
         pt.statusProperty().addListener((e, old, curr) -> {
             if (old == Animation.Status.RUNNING) {
                 ((XYChart.Data) series.getData().get(d2)).getNode().setTranslateX(translated1);
